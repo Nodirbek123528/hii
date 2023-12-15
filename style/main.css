@@ -37,16 +37,10 @@ li {
   align-items: center;
 }
 
-.footer, .main, .header-search-left, .header {
+.footer, .main, .header-search-input, .header-search-left, .header {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.header-search-input {
-  display: flex;
-  align-items: center;
-  justify-content: start;
 }
 
 .wrapper {
@@ -134,9 +128,6 @@ li {
   border: 2px solid gray;
   border-radius: 50px;
   padding: 8px 14px;
-}
-.header-search-input {
-  border: none;
   margin-left: 5px;
 }
 .header-buttons {

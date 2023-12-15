@@ -80,14 +80,12 @@
     }
     &-search{
         flex: 1 1 auto;
+
         &-input{
-            @extend %flex-start;
+            @extend %flex-center;
             border: 2px solid gray;
             border-radius: 50px;
             padding: 8px 14px;
-        }
-        &-input{
-            border: none;
             margin-left: 5px;
         }
     }
