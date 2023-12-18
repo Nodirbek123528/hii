@@ -1150,7 +1150,7 @@ li {
 @media screen and (max-width: 1060px) {
   .main-9-section-middle1 {
     width: 318px;
-    height: 412px;
+    height: 422px;
     margin-top: 0px;
     opacity: 1;
   }
@@ -1203,7 +1203,7 @@ li {
 @media screen and (max-width: 1060px) {
   .main-9-section-middle2 {
     width: 318px;
-    height: 412px;
+    height: 422px;
     flex-shrink: 0;
   }
 }
@@ -1259,7 +1259,7 @@ li {
 @media screen and (max-width: 1060px) {
   .main-9-section-middle3 {
     width: 318px;
-    height: 412px;
+    height: 422px;
     flex-shrink: 0;
     margin-top: 0px;
     opacity: 1;
@@ -1371,6 +1371,7 @@ li {
   justify-content: center;
   flex-direction: row;
   margin-bottom: 33px;
+  overflow: hidden;
 }
 .footer-1-section-logo {
   margin-left: 16px;
@@ -1602,6 +1603,12 @@ li {
   justify-content: space-between;
   padding-top: 19px;
   padding-bottom: 28px;
+}
+@media screen and (max-width: 1060px) {
+  .footer-2-section {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
 }
 .footer-2-section-right-title {
   font-size: 14px;
